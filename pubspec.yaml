@@ -1,0 +1,47 @@
+name: handspeak
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.16.0
+  audioplayers: 6.5.0
+  cloud_firestore: ^4.8.2
+  firebase_storage: ^11.6.7
+  google_sign_in: ^6.2.1
+  camera: ^0.10.5+2
+  lottie: ^2.7.0
+  provider: ^6.1.2
+  speech_to_text: ^6.6.2
+  permission_handler: ^11.3.0
+  image_picker: ^1.1.0
+  flutter_tts: ^3.8.4
+  smooth_page_indicator: ^1.1.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  assets:
+    - assets/images/logo.png
+    - assets/lottie/splash_animation.json
+    - assets/lottie/learn_signs.json
+    - assets/lottie/camera_practice.json
+    - assets/lottie/progress_tracking.json
+    - assets/alphabet/
+    - assets/numbers/
+    - assets/greetings/
+    - assets/phrases/
+    - assets/signs/
+    - assets/lottie/
+    - assets/audio/
